@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Care Giver</string>
+    <string name="hospital">Hospital</string>
+    <string name="check_your_internet_connection">Check your internet connection.</string>
+    <string name="no_data">No Data</string>
+    <string name="search_hospital">Search Hospital</string>
+    <string name="set_alarm">Set Alarm Time</string>
+    <string name="add_new_feed">Add New Feed</string>
+    <string name="registration">Registration</string>
+    <string name="name">Name</string>
+    <string name="instruction">Instruction</string>
+    <string name="caution">Caution</string>
+    <string name="photo_path">Photo Path</string>
+    <string name="save">Save</string>
+    <string name="create_new_feed">Create New Feed</string>
+    <string name="enter_name">Please enter name.</string>
+    <string name="enter_caution">Please enter caution</string>
+    <string name="enter_instruction">Please enter instruction</string>
+    <string name="username">Username</string>
+    <string name="contact">Gmail or Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_username">Please enter user name</string>
+    <string name="password_does_not_match">Password does not match.</string>
+    <string name="enter_confrim_password">Please enter confirm passswrod</string>
+    <string name="enter_password">Please enter password</string>
+    <string name="enter_contact">Please enter gmail or phone number.</string>
+    <string name="underline_login"><u>Login</u></string>
+    <string name="alarm_time">Alarm Time</string>
+    <string name="add">Add</string>
+    <string name="alarm">Alarm</string>
+    <string name="close_alarm">Close Alarm</string>
+    <string name="do_you_close">"Do you close "</string>
+    <string name="login">Login</string>
+    <string name="not_register">Not Registered?</string>
+    <string name="go_new_feed"><u>Go to Newsfeed</u></string>
+</resources>
