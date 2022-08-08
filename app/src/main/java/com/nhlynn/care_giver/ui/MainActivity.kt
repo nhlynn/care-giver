@@ -42,10 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         waitResponse()
 
-        lifecycleScope.launch {
-            binding.progressbar.visibility = View.VISIBLE
-            mNewFeedViewModel.getNewFeed()
-        }
+        getNewFeed()
 
         binding.fabClose.setOnClickListener {
             closeFABMenu()
@@ -73,6 +70,19 @@ class MainActivity : AppCompatActivity() {
         binding.fabAlarm.setOnClickListener {
             closeFABMenu()
             startActivity(AlarmActivity.newIntent(this))
+        }
+
+        binding.srRefresh.setOnRefreshListener {
+            getNewFeed()
+            closeFABMenu()
+            binding.srRefresh.isRefreshing=false
+        }
+    }
+
+    private fun getNewFeed() {
+        lifecycleScope.launch {
+            binding.progressbar.visibility = View.VISIBLE
+            mNewFeedViewModel.getNewFeed()
         }
     }
 
